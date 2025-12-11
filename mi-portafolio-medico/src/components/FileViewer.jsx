@@ -5,6 +5,15 @@ const FileViewer = ({ file, onClose }) => {
 
   if (!file) return null;
 
+  // IMPORTANTE: Construir la ruta correcta
+  const getPdfUrl = () => {
+    // 1. Usar file.filename que ya tiene la ruta completa "/files/nombre.pdf"
+    // 2. Usar encodeURI para espacios y caracteres especiales
+    return encodeURI(file.filename);
+  };
+
+  const pdfUrl = getPdfUrl();
+
   return (
     <div className="fixed inset-0 bg-black bg-opacity-50 z-50 flex items-center justify-center p-4">
       <div className="bg-white rounded-2xl w-full max-w-6xl h-[90vh] flex flex-col">
@@ -26,7 +35,7 @@ const FileViewer = ({ file, onClose }) => {
           
           <div className="flex items-center gap-3">
             <a
-              href={`/files/${file.filename}`}
+              href={pdfUrl}  // CORREGIDO: Usar pdfUrl en lugar de construir mal la ruta
               download
               className="px-4 py-2 rounded-lg bg-gray-100 hover:bg-gray-200 transition-colors font-medium flex items-center gap-2"
             >
@@ -54,7 +63,7 @@ const FileViewer = ({ file, onClose }) => {
           )}
           
           <iframe
-            src={`/files/${file.filename}`}
+            src={pdfUrl}  // CORREGIDO: Usar pdfUrl construida correctamente
             className="w-full h-full"
             title={`PDF Viewer - ${file.title}`}
             onLoad={() => setIsLoading(false)}
