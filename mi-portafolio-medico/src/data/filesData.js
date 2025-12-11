@@ -2,7 +2,7 @@ export const filesData = [
   {
     id: 1,
     title: "Taller Grupal: Proyecto en Kanban",
-    filename: "/files/taller grupal proyecto en kanban.pdf",
+    filename: "/files/taller grupal proyecto en kanban.pdf", // MINÚSCULAS EXACTAS
     category: "Gestión de Proyectos",
     date: "02-oct-2025",
     description: "Organización y gestión de tareas en Trello para proyecto médico usando metodología Kanban.",
@@ -12,7 +12,7 @@ export const filesData = [
   {
     id: 2,
     title: "Taller: Aplicación del Modelo CMMI",
-    filename: "/files/taller_aplicación_del_modelo_cmmi.pdf",
+    filename: "/files/taller_aplicación_del_modelo_cmmi.pdf", // GUION_BAJO y minúsculas
     category: "Calidad de Software",
     date: "16-10-2025",
     description: "Análisis de niveles de madurez CMMI aplicados al desarrollo de software médico.",
@@ -42,7 +42,7 @@ export const filesData = [
   {
     id: 5,
     title: "ISO 15504 y 12207",
-    filename: "/files/taller grupal iso 15504. - 12207.pdf",
+    filename: "/files/taller grupal iso 15504. - 12207.pdf", // INCLUYE el punto después de "15504."
     category: "Normativas",
     date: "22-oct-2025",
     description: "Alineación con normas ISO para ciclo de vida del software médico y evaluación de madurez.",
@@ -52,7 +52,7 @@ export const filesData = [
   {
     id: 6,
     title: "CMMI Aplicado al Proyecto",
-    filename: "/files/taller_cmmi_aplicado al proyecto.pdf",
+    filename: "/files/taller_cmmi_aplicado al proyecto.pdf", // espacio entre "aplicado al"
     category: "Calidad de Software",
     date: "16-10-2025",
     description: "Implementación práctica del modelo CMMI en el desarrollo de plataforma médica.",
@@ -62,7 +62,7 @@ export const filesData = [
   {
     id: 7,
     title: "Project Libre: Dependencias",
-    filename: "/files/project libre - actividades- dependencias_grupal.pdf",
+    filename: "/files/project libre - actividades- dependencias_grupal.pdf", // espacios alrededor de guiones
     category: "Gestión de Proyectos",
     date: "23-sep-2025",
     description: "Análisis de dependencias entre tareas en Project Libre para construcción de cronogramas.",
@@ -82,14 +82,14 @@ export const filesData = [
   {
     id: 9,
     title: "Metodología de Implementación de Software",
-    filename: "/files/tarea-metodologíaimplementaciónsoftware.pdf",
+    filename: "/files/tarea-metodologíaimplementaciónsoftware.pdf", // sin espacio después del guión
     category: "Metodologías",
     date: "30-oct-2025",
     description: "Análisis y aplicación de metodologías para la implementación de software médico.",
     tags: ["Metodología", "Implementación", "Desarrollo", "Procesos"],
     icon: "fa-tasks"
   }
-]
+];
 
 export const categories = [
   "Todos",
