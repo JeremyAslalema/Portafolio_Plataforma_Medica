@@ -165,7 +165,7 @@ const About = () => {
               { date: 'Oct 2025', title: 'Sprint 0', desc: 'Configuración de entorno y arquitectura base' },
               { date: 'Nov 2025', title: 'Desarrollo Sprints 1-3', desc: 'Implementación de módulos principales' },
               { date: 'Dic 2025', title: 'Pruebas y Calidad', desc: 'Aplicación de estándares CMMI e ISO' },
-              { date: 'Ene 2026', title: 'Lanzamiento', desc: 'Despliegue en producción y documentación final' }
+              { date: 'Dic 2025', title: 'Lanzamiento', desc: 'Despliegue en producción y documentación final' }
             ].map((item, index) => (
               <div key={index} className={`relative mb-12 ${index % 2 === 0 ? 'pr-1/2 text-right' : 'pl-1/2'}`}>
                 <div className={`absolute top-0 w-6 h-6 rounded-full bg-primary-blue border-4 border-white ${index % 2 === 0 ? 'right-0 transform translate-x-1/2' : 'left-0 transform -translate-x-1/2'}`}></div>
