@@ -6,21 +6,19 @@ export default defineConfig({
   base: '/',
   build: {
     outDir: 'dist',
-    // Asegurar que copia TODOS los archivos de public
-    copyPublicDir: true,
-    // Configuración para archivos estáticos
-    assetsInclude: ['**/*.pdf'],
+    // CONFIGURACIÓN BÁSICA - ya no necesitas manejar PDFs
+    assetsDir: 'assets',
     rollupOptions: {
       output: {
-        // Mantener estructura de directorios
-        preserveModules: false,
-        assetFileNames: (assetInfo) => {
-          if (assetInfo.name && assetInfo.name.endsWith('.pdf')) {
-            return 'files/[name][extname]'
-          }
-          return 'assets/[name]-[hash][extname]'
-        }
+        // Configuración estándar para Vite + React
+        assetFileNames: 'assets/[name]-[hash][extname]',
+        chunkFileNames: 'assets/[name]-[hash].js',
+        entryFileNames: 'assets/[name]-[hash].js'
       }
     }
+  },
+  // Optimizar para producción
+  server: {
+    port: 3000
   }
 })

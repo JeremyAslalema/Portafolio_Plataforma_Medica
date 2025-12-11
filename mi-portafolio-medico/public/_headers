@@ -1,9 +1,0 @@
-# public/_headers
-/*.pdf
-  Content-Type: application/pdf
-  Access-Control-Allow-Origin: *
-
-/files/*
-  Content-Type: application/pdf
-  Access-Control-Allow-Origin: *
-  Cache-Control: public, max-age=31536000

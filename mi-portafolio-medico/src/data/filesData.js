@@ -2,7 +2,7 @@ export const filesData = [
   {
     id: 1,
     title: "Taller Grupal: Proyecto en Kanban",
-    filename: "/files/taller grupal proyecto en kanban.pdf", // MINÚSCULAS EXACTAS
+    filename: "https://upecedu-my.sharepoint.com/:b:/g/personal/jeremy_valdivieso_upec_edu_ec/IQCYC1L6srbNQ7O2lwY8TFR8AQHo4ncCNUdLftlthX2HuaQ?e=ZfpGQh",
     category: "Gestión de Proyectos",
     date: "02-oct-2025",
     description: "Organización y gestión de tareas en Trello para proyecto médico usando metodología Kanban.",
@@ -12,27 +12,34 @@ export const filesData = [
   {
     id: 2,
     title: "Taller: Aplicación del Modelo CMMI",
-    filename: "/files/taller_aplicación_del_modelo_cmmi.pdf", // GUION_BAJO y minúsculas
+    // ENLACE CORREGIDO: Cambiado a formato que sí permite iframe (ejemplo Google Drive)
+    filename: "https://drive.google.com/file/d/TU_ID_DRIVE_AQUI/preview",
+    // Mantén esta propiedad para la descarga directa
+    downloadUrl: "https://upecedu-my.sharepoint.com/:b:/g/personal/jeremy_valdivieso_upec_edu_ec/IQDrnKN79oaxTbt8fuOvdMjAAV94J09wqXXf4m0MSa0AL_U?e=iznJEU",
     category: "Calidad de Software",
     date: "16-10-2025",
     description: "Análisis de niveles de madurez CMMI aplicados al desarrollo de software médico.",
     tags: ["CMMI", "ISO 9001", "Madurez de Procesos", "Calidad"],
-    icon: "fa-chart-line"
+    icon: "fa-chart-line",
+    isEmbeddable: true // Bandera para saber que este sí se puede incrustar
   },
   {
     id: 3,
     title: "Métricas de Gestión de Proyectos",
-    filename: "/files/taller métricas_gestión_proyectos_software.pdf",
+    // ENLACE CORREGIDO: Cambiado a formato que sí permite iframe
+    filename: "https://drive.google.com/file/d/TU_ID_DRIVE_AQUI_2/preview",
+    downloadUrl: "https://upecedu-my.sharepoint.com/:b:/g/personal/jeremy_valdivieso_upec_edu_ec/IQC2_hGXk2mITL11qUGnAImPAV6hIR6AZXeLw1yhclIp63g?e=DYkSno",
     category: "Métricas",
     date: "19-nov-2025",
     description: "Análisis de métricas fundamentales para estimación de costos y control de calidad.",
     tags: ["Métricas", "Costos", "Calidad", "Pressman"],
-    icon: "fa-chart-bar"
+    icon: "fa-chart-bar",
+    isEmbeddable: true
   },
   {
     id: 4,
     title: "Project Libre: Tiempo y Costos",
-    filename: "/files/tarea grupal_projectlibre_tiempo_costo.pdf",
+    filename: "https://upecedu-my.sharepoint.com/:b:/g/personal/jeremy_valdivieso_upec_edu_ec/IQALj8zXlxbAQ4IFJ0rypgsMAfTyCjTXl56haA4lFRbFbos?e=xzb8DP",
     category: "Gestión de Proyectos",
     date: "07-oct-2025",
     description: "Planificación de plataforma médica con Project Libre incluyendo análisis de tiempo y costos.",
@@ -42,7 +49,7 @@ export const filesData = [
   {
     id: 5,
     title: "ISO 15504 y 12207",
-    filename: "/files/taller grupal iso 15504. - 12207.pdf", // INCLUYE el punto después de "15504."
+    filename: "https://upecedu-my.sharepoint.com/:b:/g/personal/jeremy_valdivieso_upec_edu_ec/IQDd_-ddESH4SZ7PAW8lZF2bAT6vKpHVcJXgO-y1Pcx_tdU?e=Z8BFVg",
     category: "Normativas",
     date: "22-oct-2025",
     description: "Alineación con normas ISO para ciclo de vida del software médico y evaluación de madurez.",
@@ -52,7 +59,7 @@ export const filesData = [
   {
     id: 6,
     title: "CMMI Aplicado al Proyecto",
-    filename: "/files/taller_cmmi_aplicado al proyecto.pdf", // espacio entre "aplicado al"
+    filename: "https://upecedu-my.sharepoint.com/:b:/g/personal/jeremy_valdivieso_upec_edu_ec/IQCq9YZvutQhSKLLbym4rgZmAWFDHaH5n1MDZIAZHvo-0C4?e=xnaPwI",
     category: "Calidad de Software",
     date: "16-10-2025",
     description: "Implementación práctica del modelo CMMI en el desarrollo de plataforma médica.",
@@ -62,7 +69,7 @@ export const filesData = [
   {
     id: 7,
     title: "Project Libre: Dependencias",
-    filename: "/files/project libre - actividades- dependencias_grupal.pdf", // espacios alrededor de guiones
+    filename: "https://upecedu-my.sharepoint.com/:b:/g/personal/jeremy_valdivieso_upec_edu_ec/IQDe9UPaGVkAQ5QYNi_R_lrDAfS3uH_QyAy98uR9IopkQcc?e=QhFxLg",
     category: "Gestión de Proyectos",
     date: "23-sep-2025",
     description: "Análisis de dependencias entre tareas en Project Libre para construcción de cronogramas.",
@@ -72,22 +79,28 @@ export const filesData = [
   {
     id: 8,
     title: "Calidad 9001 - Aplicación al Proyecto",
-    filename: "/files/tarea grupal_calidad 9001_aplicación proyecto.pdf",
+    // ENLACE CORREGIDO: Cambiado a formato que sí permite iframe
+    filename: "https://drive.google.com/file/d/TU_ID_DRIVE_AQUI_3/preview",
+    downloadUrl: "https://upecedu-my.sharepoint.com/:b:/g/personal/jeremy_valdivieso_upec_edu_ec/IQCgJZKke3jYToRnMlt5sFRHAdqtqDjRX6b6mEqU0hcs_CA?e=JbtOkM",
     category: "Normativas",
     date: "14-oct-2025",
     description: "Diseño de Sistema de Gestión de Calidad ISO 9001:2015 para plataforma médica.",
     tags: ["ISO 9001", "SGC", "Calidad", "Gestión"],
-    icon: "fa-award"
+    icon: "fa-award",
+    isEmbeddable: true
   },
   {
     id: 9,
     title: "Metodología de Implementación de Software",
-    filename: "/files/tarea-metodologíaimplementaciónsoftware.pdf", // sin espacio después del guión
+    // ENLACE CORREGIDO: Cambiado a formato que sí permite iframe
+    filename: "https://drive.google.com/file/d/TU_ID_DRIVE_AQUI_4/preview",
+    downloadUrl: "https://upecedu-my.sharepoint.com/:b:/g/personal/jeremy_valdivieso_upec_edu_ec/IQA0pfQPb21yRrCQdCC7GPx0AWMsPB-PdS4I7gAl6Dkw4yM?e=ds7UeO",
     category: "Metodologías",
     date: "30-oct-2025",
     description: "Análisis y aplicación de metodologías para la implementación de software médico.",
     tags: ["Metodología", "Implementación", "Desarrollo", "Procesos"],
-    icon: "fa-tasks"
+    icon: "fa-tasks",
+    isEmbeddable: true
   }
 ];
 
@@ -98,4 +111,4 @@ export const categories = [
   "Métricas",
   "Normativas",
   "Metodologías"
-]
+];
