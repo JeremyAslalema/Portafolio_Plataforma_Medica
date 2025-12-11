@@ -12,29 +12,24 @@ export const filesData = [
   {
     id: 2,
     title: "Taller: Aplicación del Modelo CMMI",
-    // CAMBIADO: Ahora es enlace de Google Drive para iframe
-    filename: "https://drive.google.com/file/d/REEMPLAZA_CON_ID_DRIVE_1/preview",
-    // Mantén el enlace de OneDrive para descargar
-    downloadUrl: "https://upecedu-my.sharepoint.com/:b:/g/personal/jeremy_valdivieso_upec_edu_ec/IQDrnKN79oaxTbt8fuOvdMjAAV94J09wqXXf4m0MSa0AL_U?e=iznJEU",
+    // ENLACE CORREGIDO: Igual que los otros
+    filename: "https://upecedu-my.sharepoint.com/:b:/g/personal/jeremy_valdivieso_upec_edu_ec/IQDrnKN79oaxTbt8fuOvdMjAAV94J09wqXXf4m0MSa0AL_U?e=iznJEU",
     category: "Calidad de Software",
     date: "16-10-2025",
     description: "Análisis de niveles de madurez CMMI aplicados al desarrollo de software médico.",
     tags: ["CMMI", "ISO 9001", "Madurez de Procesos", "Calidad"],
-    icon: "fa-chart-line",
-    isEmbeddable: true
+    icon: "fa-chart-line"
   },
   {
     id: 3,
     title: "Métricas de Gestión de Proyectos",
-    // CAMBIADO: Ahora es enlace de Google Drive para iframe
-    filename: "https://drive.google.com/file/d/REEMPLAZA_CON_ID_DRIVE_2/preview",
-    downloadUrl: "https://upecedu-my.sharepoint.com/:b:/g/personal/jeremy_valdivieso_upec_edu_ec/IQC2_hGXk2mITL11qUGnAImPAV6hIR6AZXeLw1yhclIp63g?e=DYkSno",
+    // ENLACE CORREGIDO: Igual que los otros
+    filename: "https://upecedu-my.sharepoint.com/:b:/g/personal/jeremy_valdivieso_upec_edu_ec/IQC2_hGXk2mITL11qUGnAImPAV6hIR6AZXeLw1yhclIp63g?e=DYkSno",
     category: "Métricas",
     date: "19-nov-2025",
     description: "Análisis de métricas fundamentales para estimación de costos y control de calidad.",
     tags: ["Métricas", "Costos", "Calidad", "Pressman"],
-    icon: "fa-chart-bar",
-    isEmbeddable: true
+    icon: "fa-chart-bar"
   },
   {
     id: 4,
@@ -79,28 +74,24 @@ export const filesData = [
   {
     id: 8,
     title: "Calidad 9001 - Aplicación al Proyecto",
-    // CAMBIADO: Ahora es enlace de Google Drive para iframe
-    filename: "https://drive.google.com/file/d/REEMPLAZA_CON_ID_DRIVE_3/preview",
-    downloadUrl: "https://upecedu-my.sharepoint.com/:b:/g/personal/jeremy_valdivieso_upec_edu_ec/IQCgJZKke3jYToRnMlt5sFRHAdqtqDjRX6b6mEqU0hcs_CA?e=JbtOkM",
+    // ENLACE CORREGIDO: Igual que los otros
+    filename: "https://upecedu-my.sharepoint.com/:b:/g/personal/jeremy_valdivieso_upec_edu_ec/IQCgJZKke3jYToRnMlt5sFRHAdqtqDjRX6b6mEqU0hcs_CA?e=JbtOkM",
     category: "Normativas",
     date: "14-oct-2025",
     description: "Diseño de Sistema de Gestión de Calidad ISO 9001:2015 para plataforma médica.",
     tags: ["ISO 9001", "SGC", "Calidad", "Gestión"],
-    icon: "fa-award",
-    isEmbeddable: true
+    icon: "fa-award"
   },
   {
     id: 9,
     title: "Metodología de Implementación de Software",
-    // CAMBIADO: Ahora es enlace de Google Drive para iframe
-    filename: "https://drive.google.com/file/d/REEMPLAZA_CON_ID_DRIVE_4/preview",
-    downloadUrl: "https://upecedu-my.sharepoint.com/:b:/g/personal/jeremy_valdivieso_upec_edu_ec/IQA0pfQPb21yRrCQdCC7GPx0AWMsPB-PdS4I7gAl6Dkw4yM?e=ds7UeO",
+    // ENLACE CORREGIDO: Igual que los otros
+    filename: "https://upecedu-my.sharepoint.com/:b:/g/personal/jeremy_valdivieso_upec_edu_ec/IQA0pfQPb21yRrCQdCC7GPx0AWMsPB-PdS4I7gAl6Dkw4yM?e=ds7UeO",
     category: "Metodologías",
     date: "30-oct-2025",
     description: "Análisis y aplicación de metodologías para la implementación de software médico.",
     tags: ["Metodología", "Implementación", "Desarrollo", "Procesos"],
-    icon: "fa-tasks",
-    isEmbeddable: true
+    icon: "fa-tasks"
   }
 ];
 
