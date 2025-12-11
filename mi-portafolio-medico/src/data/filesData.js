@@ -12,22 +12,22 @@ export const filesData = [
   {
     id: 2,
     title: "Taller: Aplicación del Modelo CMMI",
-    // ENLACE CORREGIDO: Cambiado a formato que sí permite iframe (ejemplo Google Drive)
-    filename: "https://drive.google.com/file/d/TU_ID_DRIVE_AQUI/preview",
-    // Mantén esta propiedad para la descarga directa
+    // CAMBIADO: Ahora es enlace de Google Drive para iframe
+    filename: "https://drive.google.com/file/d/REEMPLAZA_CON_ID_DRIVE_1/preview",
+    // Mantén el enlace de OneDrive para descargar
     downloadUrl: "https://upecedu-my.sharepoint.com/:b:/g/personal/jeremy_valdivieso_upec_edu_ec/IQDrnKN79oaxTbt8fuOvdMjAAV94J09wqXXf4m0MSa0AL_U?e=iznJEU",
     category: "Calidad de Software",
     date: "16-10-2025",
     description: "Análisis de niveles de madurez CMMI aplicados al desarrollo de software médico.",
     tags: ["CMMI", "ISO 9001", "Madurez de Procesos", "Calidad"],
     icon: "fa-chart-line",
-    isEmbeddable: true // Bandera para saber que este sí se puede incrustar
+    isEmbeddable: true
   },
   {
     id: 3,
     title: "Métricas de Gestión de Proyectos",
-    // ENLACE CORREGIDO: Cambiado a formato que sí permite iframe
-    filename: "https://drive.google.com/file/d/TU_ID_DRIVE_AQUI_2/preview",
+    // CAMBIADO: Ahora es enlace de Google Drive para iframe
+    filename: "https://drive.google.com/file/d/REEMPLAZA_CON_ID_DRIVE_2/preview",
     downloadUrl: "https://upecedu-my.sharepoint.com/:b:/g/personal/jeremy_valdivieso_upec_edu_ec/IQC2_hGXk2mITL11qUGnAImPAV6hIR6AZXeLw1yhclIp63g?e=DYkSno",
     category: "Métricas",
     date: "19-nov-2025",
@@ -79,8 +79,8 @@ export const filesData = [
   {
     id: 8,
     title: "Calidad 9001 - Aplicación al Proyecto",
-    // ENLACE CORREGIDO: Cambiado a formato que sí permite iframe
-    filename: "https://drive.google.com/file/d/TU_ID_DRIVE_AQUI_3/preview",
+    // CAMBIADO: Ahora es enlace de Google Drive para iframe
+    filename: "https://drive.google.com/file/d/REEMPLAZA_CON_ID_DRIVE_3/preview",
     downloadUrl: "https://upecedu-my.sharepoint.com/:b:/g/personal/jeremy_valdivieso_upec_edu_ec/IQCgJZKke3jYToRnMlt5sFRHAdqtqDjRX6b6mEqU0hcs_CA?e=JbtOkM",
     category: "Normativas",
     date: "14-oct-2025",
@@ -92,8 +92,8 @@ export const filesData = [
   {
     id: 9,
     title: "Metodología de Implementación de Software",
-    // ENLACE CORREGIDO: Cambiado a formato que sí permite iframe
-    filename: "https://drive.google.com/file/d/TU_ID_DRIVE_AQUI_4/preview",
+    // CAMBIADO: Ahora es enlace de Google Drive para iframe
+    filename: "https://drive.google.com/file/d/REEMPLAZA_CON_ID_DRIVE_4/preview",
     downloadUrl: "https://upecedu-my.sharepoint.com/:b:/g/personal/jeremy_valdivieso_upec_edu_ec/IQA0pfQPb21yRrCQdCC7GPx0AWMsPB-PdS4I7gAl6Dkw4yM?e=ds7UeO",
     category: "Metodologías",
     date: "30-oct-2025",
