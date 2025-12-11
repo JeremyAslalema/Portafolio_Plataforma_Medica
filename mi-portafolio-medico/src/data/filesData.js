@@ -2,7 +2,7 @@ export const filesData = [
   {
     id: 1,
     title: "Taller Grupal: Proyecto en Kanban",
-    filename: "Taller_Grupal_Proyecto_en_Kanban.pdf",
+    filename: "Taller Grupal Proyecto en Kanban.pdf",
     category: "Gestión de Proyectos",
     date: "02-oct-2025",
     description: "Organización y gestión de tareas en Trello para proyecto médico usando metodología Kanban.",
@@ -12,7 +12,7 @@ export const filesData = [
   {
     id: 2,
     title: "Taller: Aplicación del Modelo CMMI",
-    filename: "Taller_Aplicacion_del_Modelo_CMMI.pdf",
+    filename: "Taller_Aplicación_del_Modelo_CMMI.pdf",
     category: "Calidad de Software",
     date: "16-10-2025",
     description: "Análisis de niveles de madurez CMMI aplicados al desarrollo de software médico.",
@@ -22,7 +22,7 @@ export const filesData = [
   {
     id: 3,
     title: "Métricas de Gestión de Proyectos",
-    filename: "Taller_Metricas_Gestion_Proyectos_Software.pdf",
+    filename: "Taller Métricas_Gestión_Proyectos_Software.pdf",
     category: "Métricas",
     date: "19-nov-2025",
     description: "Análisis de métricas fundamentales para estimación de costos y control de calidad.",
@@ -32,7 +32,7 @@ export const filesData = [
   {
     id: 4,
     title: "Project Libre: Tiempo y Costos",
-    filename: "Tarea_Grupal_ProjectLibre_Tiempo_Costo.pdf",
+    filename: "Tarea Grupal_ProjectLibre_Tiempo_Costo.pdf",
     category: "Gestión de Proyectos",
     date: "07-oct-2025",
     description: "Planificación de plataforma médica con Project Libre incluyendo análisis de tiempo y costos.",
@@ -42,7 +42,7 @@ export const filesData = [
   {
     id: 5,
     title: "ISO 15504 y 12207",
-    filename: "Taller_Grupal_ISO_15504_12207.pdf",
+    filename: "Taller Grupal ISO 15504. - 12207.pdf",
     category: "Normativas",
     date: "22-oct-2025",
     description: "Alineación con normas ISO para ciclo de vida del software médico y evaluación de madurez.",
@@ -52,7 +52,7 @@ export const filesData = [
   {
     id: 6,
     title: "CMMI Aplicado al Proyecto",
-    filename: "Taller_CMMI_Aplicado_al_Proyecto.pdf",
+    filename: "Taller_CMMI_Aplicado al Proyecto.pdf",
     category: "Calidad de Software",
     date: "16-10-2025",
     description: "Implementación práctica del modelo CMMI en el desarrollo de plataforma médica.",
@@ -62,7 +62,7 @@ export const filesData = [
   {
     id: 7,
     title: "Project Libre: Dependencias",
-    filename: "Project_Libre_Actividades_Dependencias_Grupal.pdf",
+    filename: "Project Libre - Actividades- Dependencias_Grupal.pdf",
     category: "Gestión de Proyectos",
     date: "23-sep-2025",
     description: "Análisis de dependencias entre tareas en Project Libre para construcción de cronogramas.",
@@ -72,12 +72,22 @@ export const filesData = [
   {
     id: 8,
     title: "Calidad 9001 - Aplicación al Proyecto",
-    filename: "Tarea_Grupal_Calidad_9001_Aplicacion_proyecto.pdf",
+    filename: "Tarea Grupal_Calidad 9001_Aplicación proyecto.pdf",
     category: "Normativas",
     date: "14-oct-2025",
     description: "Diseño de Sistema de Gestión de Calidad ISO 9001:2015 para plataforma médica.",
     tags: ["ISO 9001", "SGC", "Calidad", "Gestión"],
     icon: "fa-award"
+  },
+  {
+    id: 9,
+    title: "Metodología de Implementación de Software",
+    filename: "Tarea-MetodologíaImplementaciónSoftware.pdf",
+    category: "Metodologías",
+    date: "30-oct-2025",
+    description: "Análisis y aplicación de metodologías para la implementación de software médico.",
+    tags: ["Metodología", "Implementación", "Desarrollo", "Procesos"],
+    icon: "fa-tasks"
   }
 ]
 
@@ -86,5 +96,6 @@ export const categories = [
   "Gestión de Proyectos",
   "Calidad de Software",
   "Métricas",
-  "Normativas"
+  "Normativas",
+  "Metodologías"
 ]

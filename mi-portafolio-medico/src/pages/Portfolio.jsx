@@ -58,8 +58,10 @@ const Portfolio = () => {
         {/* Results Info */}
         <div className="flex justify-between items-center mb-6">
           <div className="text-gray-600">
-            <span className="font-semibold text-primary-blue">{filteredFiles.length}</span> 
-            de <span className="font-semibold">{filesData.length}</span> documentos encontrados
+            <span className="font-semibold text-primary-blue">{filteredFiles.length}</span>
+            <span className="mx-1">de</span>
+            <span className="font-semibold">{filesData.length}</span>
+            <span className="ml-1">documentos encontrados</span>
           </div>
           <div className="flex items-center gap-3">
             <select className="px-3 py-2 rounded-lg border border-gray-200 bg-white">
